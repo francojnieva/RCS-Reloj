@@ -3,3 +3,18 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #6B3E26;
+}
+
+main {
+    min-height: 100vh;
+}
+
+.section-container {
+    padding: 2.5rem;
+    background-color: #7E4F36;
+    border-radius: .5rem;
+    color: #FFEEA4;
+}

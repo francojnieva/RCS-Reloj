@@ -1,14 +1,13 @@
 const articleDate = document.getElementById("date")
 const articleHours = document.getElementById("hours")
 
-const week = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
-
+const week = ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"]
 const month = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
 
 setInterval(() => {
     let date = new Date()
 
-    articleDate.innerHTML = `<p class="text-center">${week[date.getDay()]} ${date.getDate()} de ${
+    articleDate.innerHTML = `<p class="text-center fs-5">${week[date.getDay()]} ${date.getDate()} de ${
     month[date.getMonth()]} del ${date.getFullYear()}</p>`
 
     let minutes = date.getMinutes()
@@ -21,6 +20,6 @@ setInterval(() => {
 
     if (second < 10) second = "0" + second
 
-    articleHours.innerHTML = `<p class="text-center">${hours}:${minutes}:${second}</p>`
+    articleHours.innerHTML = `<p class="text-center mb-0 fs-5">${hours}:${minutes}:${second}</p>`
 
 }, 1000)
