@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #6B3E26;
+    background-color: #080800;
 }
 
 main {
@@ -13,8 +13,21 @@ main {
 }
 
 .section-container {
-    padding: 2.5rem;
-    background-color: #7E4F36;
-    border-radius: .5rem;
-    color: #FFEEA4;
+    color: #86b604;
+}
+
+.section-container p {
+    font-family: 'Playfair Display', serif;
+}
+
+@media (min-width: 320px) {
+    .section-container p {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .section-container p {
+        font-size: 4rem;
+    }
 }
