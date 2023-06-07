@@ -6,4 +6,4 @@ El reloj digital es una aplicación web que muestra la fecha (día, mes y año.)
 - CSS
 - JavaScript
 
-[Reloj Digital](URL_del_sitio) 😃
+[Reloj Digital](https://rcs-reloj-digital.netlify.app) 😃
